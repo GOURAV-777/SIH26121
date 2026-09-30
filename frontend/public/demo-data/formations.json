@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Alluvium and topsoil",
+    "lithology": "sand_silt",
+    "base_top_tvd": 0.0,
+    "color": "#c8a76a",
+    "is_loss_zone": 0,
+    "is_overpressure": 0
+  },
+  {
+    "id": 2,
+    "name": "Dihing\u2013Namsang (demo)",
+    "lithology": "sand_clay",
+    "base_top_tvd": 120.0,
+    "color": "#d4956a",
+    "is_loss_zone": 0,
+    "is_overpressure": 0
+  },
+  {
+    "id": 3,
+    "name": "Tipam Sandstone (demo)",
+    "lithology": "sandstone",
+    "base_top_tvd": 900.0,
+    "color": "#e8c97a",
+    "is_loss_zone": 0,
+    "is_overpressure": 0
+  },
+  {
+    "id": 4,
+    "name": "Girujan Clay (demo)",
+    "lithology": "shale",
+    "base_top_tvd": 1700.0,
+    "color": "#8a7a6a",
+    "is_loss_zone": 0,
+    "is_overpressure": 0
+  },
+  {
+    "id": 5,
+    "name": "Surma Group (demo)",
+    "lithology": "sand_shale",
+    "base_top_tvd": 2150.0,
+    "color": "#9aad8a",
+    "is_loss_zone": 0,
+    "is_overpressure": 0
+  },
+  {
+    "id": 6,
+    "name": "Formation X, Barail Coal-Sand (demo)",
+    "lithology": "coal_sand",
+    "base_top_tvd": 2440.0,
+    "color": "#1a1a1a",
+    "is_loss_zone": 1,
+    "is_overpressure": 0
+  },
+  {
+    "id": 7,
+    "name": "Barail Upper Shale (demo)",
+    "lithology": "shale",
+    "base_top_tvd": 2500.0,
+    "color": "#6a8a9a",
+    "is_loss_zone": 0,
+    "is_overpressure": 0
+  },
+  {
+    "id": 8,
+    "name": "Kopili Shale (demo)",
+    "lithology": "overpressure_shale",
+    "base_top_tvd": 2900.0,
+    "color": "#5a6a8a",
+    "is_loss_zone": 0,
+    "is_overpressure": 1
+  },
+  {
+    "id": 9,
+    "name": "Sylhet Limestone (demo)",
+    "lithology": "limestone",
+    "base_top_tvd": 3250.0,
+    "color": "#a09070",
+    "is_loss_zone": 0,
+    "is_overpressure": 0
+  },
+  {
+    "id": 10,
+    "name": "Basement (demo)",
+    "lithology": "crystalline",
+    "base_top_tvd": 3600.0,
+    "color": "#2a2a35",
+    "is_loss_zone": 0,
+    "is_overpressure": 0
+  }
+]

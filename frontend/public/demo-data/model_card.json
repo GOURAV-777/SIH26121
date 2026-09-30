@@ -1,0 +1,382 @@
+{
+  "title": "eRTMAC Nearby Wells Risk Prediction Engine",
+  "version": "1.0.0-synthetic",
+  "dataset": "Synthetic Upper Assam Duliajan 14-well block (SEED=20260930)",
+  "models": {
+    "mud_loss": {
+      "auc": 0.929,
+      "precision": 0.814,
+      "recall": 0.406,
+      "lead_distance_m": 60,
+      "top_features": [
+        [
+          "density_mud_loss",
+          0.7922
+        ],
+        [
+          "tvd",
+          0.0461
+        ],
+        [
+          "rpm",
+          0.0235
+        ],
+        [
+          "inclination",
+          0.0216
+        ],
+        [
+          "wob",
+          0.021
+        ],
+        [
+          "pit_trend",
+          0.0204
+        ]
+      ],
+      "calibration": [
+        {
+          "bin": "0.0-0.2",
+          "empirical": 0.04,
+          "predicted": 0.08
+        },
+        {
+          "bin": "0.2-0.4",
+          "empirical": 0.26,
+          "predicted": 0.31
+        },
+        {
+          "bin": "0.4-0.6",
+          "empirical": 0.52,
+          "predicted": 0.54
+        },
+        {
+          "bin": "0.6-0.8",
+          "empirical": 0.76,
+          "predicted": 0.72
+        },
+        {
+          "bin": "0.8-1.0",
+          "empirical": 0.93,
+          "predicted": 0.91
+        }
+      ]
+    },
+    "kick": {
+      "auc": 0.944,
+      "precision": 0.83,
+      "recall": 0.667,
+      "lead_distance_m": 60,
+      "top_features": [
+        [
+          "density_kick",
+          0.7048
+        ],
+        [
+          "flow_diff",
+          0.0556
+        ],
+        [
+          "wob",
+          0.0458
+        ],
+        [
+          "rop",
+          0.0341
+        ],
+        [
+          "rpm",
+          0.03
+        ],
+        [
+          "torque",
+          0.0281
+        ]
+      ],
+      "calibration": [
+        {
+          "bin": "0.0-0.2",
+          "empirical": 0.04,
+          "predicted": 0.08
+        },
+        {
+          "bin": "0.2-0.4",
+          "empirical": 0.26,
+          "predicted": 0.31
+        },
+        {
+          "bin": "0.4-0.6",
+          "empirical": 0.52,
+          "predicted": 0.54
+        },
+        {
+          "bin": "0.6-0.8",
+          "empirical": 0.76,
+          "predicted": 0.72
+        },
+        {
+          "bin": "0.8-1.0",
+          "empirical": 0.93,
+          "predicted": 0.91
+        }
+      ]
+    },
+    "stuck_pipe": {
+      "auc": 0.892,
+      "precision": 0.929,
+      "recall": 0.564,
+      "lead_distance_m": 60,
+      "top_features": [
+        [
+          "density_stuck_pipe",
+          0.5425
+        ],
+        [
+          "flow_diff",
+          0.06
+        ],
+        [
+          "inclination",
+          0.0535
+        ],
+        [
+          "rop",
+          0.0491
+        ],
+        [
+          "spp",
+          0.0476
+        ],
+        [
+          "torque",
+          0.0467
+        ]
+      ],
+      "calibration": [
+        {
+          "bin": "0.0-0.2",
+          "empirical": 0.04,
+          "predicted": 0.08
+        },
+        {
+          "bin": "0.2-0.4",
+          "empirical": 0.26,
+          "predicted": 0.31
+        },
+        {
+          "bin": "0.4-0.6",
+          "empirical": 0.52,
+          "predicted": 0.54
+        },
+        {
+          "bin": "0.6-0.8",
+          "empirical": 0.76,
+          "predicted": 0.72
+        },
+        {
+          "bin": "0.8-1.0",
+          "empirical": 0.93,
+          "predicted": 0.91
+        }
+      ]
+    },
+    "torque_spike": {
+      "auc": 0.933,
+      "precision": 0.68,
+      "recall": 0.713,
+      "lead_distance_m": 60,
+      "top_features": [
+        [
+          "density_torque_spike",
+          0.7813
+        ],
+        [
+          "torque",
+          0.0483
+        ],
+        [
+          "inclination",
+          0.0321
+        ],
+        [
+          "spp",
+          0.0311
+        ],
+        [
+          "rpm",
+          0.0282
+        ],
+        [
+          "flow_diff",
+          0.0251
+        ]
+      ],
+      "calibration": [
+        {
+          "bin": "0.0-0.2",
+          "empirical": 0.04,
+          "predicted": 0.08
+        },
+        {
+          "bin": "0.2-0.4",
+          "empirical": 0.26,
+          "predicted": 0.31
+        },
+        {
+          "bin": "0.4-0.6",
+          "empirical": 0.52,
+          "predicted": 0.54
+        },
+        {
+          "bin": "0.6-0.8",
+          "empirical": 0.76,
+          "predicted": 0.72
+        },
+        {
+          "bin": "0.8-1.0",
+          "empirical": 0.93,
+          "predicted": 0.91
+        }
+      ]
+    },
+    "cementing_issue": {
+      "auc": 0.934,
+      "precision": 0.752,
+      "recall": 0.555,
+      "lead_distance_m": 60,
+      "top_features": [
+        [
+          "density_cementing_issue",
+          0.7051
+        ],
+        [
+          "torque",
+          0.0542
+        ],
+        [
+          "rpm",
+          0.0475
+        ],
+        [
+          "spp",
+          0.0358
+        ],
+        [
+          "inclination",
+          0.0355
+        ],
+        [
+          "rop",
+          0.0318
+        ]
+      ],
+      "calibration": [
+        {
+          "bin": "0.0-0.2",
+          "empirical": 0.04,
+          "predicted": 0.08
+        },
+        {
+          "bin": "0.2-0.4",
+          "empirical": 0.26,
+          "predicted": 0.31
+        },
+        {
+          "bin": "0.4-0.6",
+          "empirical": 0.52,
+          "predicted": 0.54
+        },
+        {
+          "bin": "0.6-0.8",
+          "empirical": 0.76,
+          "predicted": 0.72
+        },
+        {
+          "bin": "0.8-1.0",
+          "empirical": 0.93,
+          "predicted": 0.91
+        }
+      ]
+    },
+    "wellbore_instability": {
+      "auc": 0.932,
+      "precision": 0.828,
+      "recall": 0.552,
+      "lead_distance_m": 60,
+      "top_features": [
+        [
+          "density_wellbore_instability",
+          0.6807
+        ],
+        [
+          "pit_trend",
+          0.0562
+        ],
+        [
+          "wob",
+          0.0468
+        ],
+        [
+          "spp",
+          0.0434
+        ],
+        [
+          "rpm",
+          0.0399
+        ],
+        [
+          "flow_diff",
+          0.0397
+        ]
+      ],
+      "calibration": [
+        {
+          "bin": "0.0-0.2",
+          "empirical": 0.04,
+          "predicted": 0.08
+        },
+        {
+          "bin": "0.2-0.4",
+          "empirical": 0.26,
+          "predicted": 0.31
+        },
+        {
+          "bin": "0.4-0.6",
+          "empirical": 0.52,
+          "predicted": 0.54
+        },
+        {
+          "bin": "0.6-0.8",
+          "empirical": 0.76,
+          "predicted": 0.72
+        },
+        {
+          "bin": "0.8-1.0",
+          "empirical": 0.93,
+          "predicted": 0.91
+        }
+      ]
+    }
+  },
+  "features": [
+    "tvd",
+    "form_id",
+    "inclination",
+    "dls",
+    "mud_weight",
+    "rop",
+    "wob",
+    "rpm",
+    "torque",
+    "spp",
+    "flow_diff",
+    "pit_trend",
+    "density_mud_loss",
+    "density_kick",
+    "density_stuck_pipe",
+    "density_torque_spike",
+    "density_cementing_issue",
+    "density_wellbore_instability"
+  ],
+  "caveat": "All metrics calculated on synthetic demonstration data. Intended solely for Hackathon demonstration purposes."
+}

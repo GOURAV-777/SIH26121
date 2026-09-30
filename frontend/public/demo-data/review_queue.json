@@ -1,0 +1,56 @@
+[
+  {
+    "id": "REV-001",
+    "doc_id": "DOC-DEMO-A-01-DDR",
+    "well_id": "DEMO-A-01",
+    "event_candidate": "{\"type\": \"mud_loss\", \"depth_tvd\": 2445.0, \"formation\": \"Formation X, Barail Coal-Sand (demo)\", \"npt\": 4.5, \"action\": \"Added 20 ppb Mica\"}",
+    "confidence": 0.72,
+    "status": "pending",
+    "created_at": "2026-09-28 10:30:00"
+  },
+  {
+    "id": "REV-002",
+    "doc_id": "DOC-DEMO-B-02-DDR",
+    "well_id": "DEMO-B-02",
+    "event_candidate": "{\"type\": \"tight_hole\", \"depth_tvd\": 1810.0, \"formation\": \"Girujan Clay (demo)\", \"npt\": 2.0, \"action\": \"Washed down 1 stand\"}",
+    "confidence": 0.68,
+    "status": "pending",
+    "created_at": "2026-09-28 10:30:00"
+  },
+  {
+    "id": "REV-003",
+    "doc_id": "DOC-DEMO-C-03-DDR",
+    "well_id": "DEMO-C-03",
+    "event_candidate": "{\"type\": \"torque_spike\", \"depth_tvd\": 2340.0, \"formation\": \"Surma Group (demo)\", \"npt\": 3.0, \"action\": \"Decreased RPM\"}",
+    "confidence": 0.74,
+    "status": "pending",
+    "created_at": "2026-09-28 10:30:00"
+  },
+  {
+    "id": "REV-004",
+    "doc_id": "DOC-DEMO-E-05-DDR",
+    "well_id": "DEMO-E-05",
+    "event_candidate": "{\"type\": \"wellbore_instability\", \"depth_tvd\": 1960.0, \"formation\": \"Girujan Clay (demo)\", \"npt\": 5.0, \"action\": \"Swept hole with heavy pill\"}",
+    "confidence": 0.71,
+    "status": "pending",
+    "created_at": "2026-09-28 10:30:00"
+  },
+  {
+    "id": "REV-005",
+    "doc_id": "DOC-DEMO-G-07-DDR",
+    "well_id": "DEMO-G-07",
+    "event_candidate": "{\"type\": \"overpressure\", \"depth_tvd\": 3080.0, \"formation\": \"Kopili Shale (demo)\", \"npt\": 6.5, \"action\": \"Weighted up active system\"}",
+    "confidence": 0.65,
+    "status": "pending",
+    "created_at": "2026-09-28 10:30:00"
+  },
+  {
+    "id": "REV-006",
+    "doc_id": "DOC-DEMO-H-08-DDR",
+    "well_id": "DEMO-H-08",
+    "event_candidate": "{\"type\": \"cementing_issue\", \"depth_tvd\": 940.0, \"formation\": \"Tipam Sandstone (demo)\", \"npt\": 8.0, \"action\": \"Hesitation squeeze\"}",
+    "confidence": 0.78,
+    "status": "pending",
+    "created_at": "2026-09-28 10:30:00"
+  }
+]

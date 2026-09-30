@@ -1,0 +1,140 @@
+{
+  "kpis": {
+    "total_wells": 14,
+    "total_docs_processed": 20,
+    "total_events_indexed": 190,
+    "total_npt_hours": 1429.8,
+    "mitigation_documented_pct": 84.5,
+    "extraction_accuracy_pct": 93.8,
+    "active_alerts_count": 1
+  },
+  "npt_by_type": [
+    {
+      "type": "mud_loss",
+      "count": 45,
+      "npt_hours": 349.4,
+      "avg_severity": 2.67
+    },
+    {
+      "type": "fishing",
+      "count": 17,
+      "npt_hours": 318.3,
+      "avg_severity": 3.41
+    },
+    {
+      "type": "cementing_issue",
+      "count": 14,
+      "npt_hours": 171.1,
+      "avg_severity": 2.79
+    },
+    {
+      "type": "wellbore_instability",
+      "count": 20,
+      "npt_hours": 145.5,
+      "avg_severity": 2.65
+    },
+    {
+      "type": "tight_hole",
+      "count": 37,
+      "npt_hours": 138.2,
+      "avg_severity": 2.03
+    },
+    {
+      "type": "overpressure",
+      "count": 18,
+      "npt_hours": 135.5,
+      "avg_severity": 3.0
+    },
+    {
+      "type": "torque_spike",
+      "count": 19,
+      "npt_hours": 82.9,
+      "avg_severity": 2.26
+    },
+    {
+      "type": "npt_other",
+      "count": 18,
+      "npt_hours": 50.4,
+      "avg_severity": 1.61
+    },
+    {
+      "type": "kick",
+      "count": 1,
+      "npt_hours": 22.0,
+      "avg_severity": 4.0
+    },
+    {
+      "type": "stuck_pipe",
+      "count": 1,
+      "npt_hours": 16.5,
+      "avg_severity": 4.0
+    }
+  ],
+  "events_by_formation": [
+    {
+      "formation": "Girujan Clay (demo)",
+      "count": 40,
+      "npt_hours": 228.4
+    },
+    {
+      "formation": "Surma Group (demo)",
+      "count": 35,
+      "npt_hours": 352.4
+    },
+    {
+      "formation": "Tipam Sandstone (demo)",
+      "count": 33,
+      "npt_hours": 241.7
+    },
+    {
+      "formation": "Barail Upper Shale (demo)",
+      "count": 33,
+      "npt_hours": 198.3
+    },
+    {
+      "formation": "Kopili Shale (demo)",
+      "count": 19,
+      "npt_hours": 157.5
+    },
+    {
+      "formation": "Dihing\u2013Namsang (demo)",
+      "count": 19,
+      "npt_hours": 63.3
+    },
+    {
+      "formation": "Formation X, Barail Coal-Sand (demo)",
+      "count": 11,
+      "npt_hours": 188.2
+    }
+  ],
+  "depth_distribution": [
+    {
+      "depth_range": "0 - 500m",
+      "count": 12
+    },
+    {
+      "depth_range": "500 - 1000m",
+      "count": 24
+    },
+    {
+      "depth_range": "1000 - 1500m",
+      "count": 28
+    },
+    {
+      "depth_range": "1500 - 2000m",
+      "count": 35
+    },
+    {
+      "depth_range": "2000 - 2500m",
+      "count": 52
+    },
+    {
+      "depth_range": "2500 - 3000m",
+      "count": 22
+    },
+    {
+      "depth_range": "3000 - 3500m",
+      "count": 17
+    }
+  ]
+}

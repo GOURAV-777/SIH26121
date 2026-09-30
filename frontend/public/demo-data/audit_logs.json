@@ -1,0 +1,38 @@
+[
+  {
+    "id": "AUD-004",
+    "timestamp": "2026-09-30 09:00:00",
+    "user_name": "R. Dutta",
+    "user_role": "analyst",
+    "action": "APPROVE_EXTRACTION",
+    "target": "REV-001",
+    "details": "Approved OCR extraction for DEMO-A-01 loss event"
+  },
+  {
+    "id": "AUD-003",
+    "timestamp": "2026-09-30 08:30:00",
+    "user_name": "P. Borah",
+    "user_role": "field_engineer",
+    "action": "ACKNOWLEDGE_ALERT",
+    "target": "ALT-PREV-01",
+    "details": "Acknowledged pre-drill watch for Formation X at 2,410m"
+  },
+  {
+    "id": "AUD-002",
+    "timestamp": "2026-09-30 08:15:00",
+    "user_name": "Dr. A. Sharma",
+    "user_role": "lead_engineer",
+    "action": "SET_ACTIVE_WELL",
+    "target": "DEMO-ACTIVE-01",
+    "details": "Set DEMO-ACTIVE-01 as primary drilling monitoring well"
+  },
+  {
+    "id": "AUD-001",
+    "timestamp": "2026-09-30 08:00:00",
+    "user_name": "System Seed",
+    "user_role": "admin",
+    "action": "INIT_DATABASE",
+    "target": "System",
+    "details": "Synthetic dataset populated with 14 wells and 200+ events"
+  }
+]

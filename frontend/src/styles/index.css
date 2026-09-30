@@ -1,0 +1,39 @@
+﻿@import './tokens.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: var(--col-bg-base);
+    color: var(--col-text-primary);
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--col-bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--col-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--col-accent-teal);
+}
+
+/* Shimmer utility */
+.skeleton-shimmer {
+  background: linear-gradient(90deg, var(--col-bg-surface) 25%, var(--col-bg-raised) 50%, var(--col-bg-surface) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s linear infinite;
+}

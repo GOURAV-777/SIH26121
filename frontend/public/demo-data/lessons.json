@@ -1,0 +1,82 @@
+[
+  {
+    "id": "LES-01",
+    "event_type": "mud_loss",
+    "title": "Lost Circulation in Barail Formation X",
+    "symptoms": "Sudden drop in flow-out (15-40%), pit level decrease, loss of standpipe pressure.",
+    "typical_causes": "Depleted coal cleat systems and high permeability sand stringers under high differential pressure.",
+    "recommended_actions": "Pre-treat active system with 25-35 ppb multi-modal LCM pill (NutPlug + Mica + Calcium Carbonate). Reduce ROP to <8 m/hr. Lower mud weight by 0.03 SG if pore pressure margin allows.",
+    "historical_stats": "Resolved 8 of 9 historical events within 4 hours when proactive LCM pill was placed before penetrating top.",
+    "case_well_ids": "DEMO-A-01,DEMO-B-02,DEMO-C-03"
+  },
+  {
+    "id": "LES-02",
+    "event_type": "kick",
+    "title": "Well Kick & Gas Influx in Kopili Transition Zone",
+    "symptoms": "Pit volume gain (>1 m3), flow out increase while pumps running, flow with pumps off.",
+    "typical_causes": "Abrupt overpressure onset (1.50+ SG EMW) in under-compacted Kopili shale lenses.",
+    "recommended_actions": "Immediate Hard Shut-In: Space out, shut down pumps, close annular preventer, record SIDPP & SICP. Execute Drillers Method.",
+    "historical_stats": "100% of Kopili influxes safely killed without casing seat breakdown when annular was closed within 2 minutes of pit gain alarm.",
+    "case_well_ids": "DEMO-B-02,DEMO-G-07"
+  },
+  {
+    "id": "LES-03",
+    "event_type": "stuck_pipe",
+    "title": "Differential Sticking in Surma Interbedded Sandstone",
+    "symptoms": "High overpull when picking up off bottom, inability to rotate or reciprocate, full circulation maintained.",
+    "typical_causes": "High overbalance pressure against permeable sandstones with thick filter cake.",
+    "recommended_actions": "Spot pipe-freeing pill with lubricating surfactant. Jar down immediately with maximum allowable force while applying left-hand torque.",
+    "historical_stats": "Jarring successful in 4 of 5 cases when initiated within 15 minutes of initial sticking.",
+    "case_well_ids": "DEMO-A-01,DEMO-E-05"
+  },
+  {
+    "id": "LES-04",
+    "event_type": "torque_spike",
+    "title": "Severe Torsional Vibration in Hard Surma Stringers",
+    "symptoms": "Torque oscillation >35%, stick-slip harmonics, erratic top drive RPM.",
+    "typical_causes": "Interbedded pyrite/chert nodules in Surma formation causing bit stalling.",
+    "recommended_actions": "Optimize parameters: Increase RPM from 90 to 125, decrease WOB by 20%, pump high-lubricity glycol sweep.",
+    "historical_stats": "Mitigated stick-slip in 6 of 7 occurrences, extending bit life by an average of 42 drilling hours.",
+    "case_well_ids": "DEMO-E-05,DEMO-H-08"
+  },
+  {
+    "id": "LES-05",
+    "event_type": "tight_hole",
+    "title": "Swelling Clays and Tight Hole in Girujan Clay",
+    "symptoms": "Overpull >25 klbs on connections, drag during tripping, pack-off tendencies.",
+    "typical_causes": "Smectite/illite reactive clay hydration and swelling into wellbore.",
+    "recommended_actions": "Maintain KCl concentration >= 7%, add polyglycol shale inhibitor, perform frequent wiper trips.",
+    "historical_stats": "Wiper trips reduced pack-off incidents by 85% across all 14 block wells.",
+    "case_well_ids": "DEMO-A-01,DEMO-F-06"
+  },
+  {
+    "id": "LES-06",
+    "event_type": "cementing_issue",
+    "title": "Gas Channeling in Tipam Surface Casing",
+    "symptoms": "Sustained casing pressure at surface, micro-annulus flow on CBL/VDL log.",
+    "typical_causes": "Poor mud removal, cement slurry loss into porous Tipam sand, gas percolation during gelation.",
+    "recommended_actions": "Pump engineered resin-enhanced thixotropic spacer with gas-block additive. Rotate casing during cementing.",
+    "historical_stats": "Primary cement success rate reached 95% after adopting gas-tight slurry designs.",
+    "case_well_ids": "DEMO-C-03,DEMO-J-10"
+  },
+  {
+    "id": "LES-07",
+    "event_type": "wellbore_instability",
+    "title": "Mechanical Sloughing in High Angle Sections",
+    "symptoms": "Large angular shale cavings on shaker, pack-off spikes on SPP.",
+    "typical_causes": "Bedding plane shear failure in deviated wellbores (>25 deg inclination).",
+    "recommended_actions": "Increase equivalent circulating density (ECD) by 0.03 SG, optimize flow rate for laminar hole cleaning.",
+    "historical_stats": "Stabilized wellbore in 5 of 5 deviated wells without sidetracking.",
+    "case_well_ids": "DEMO-B-02,DEMO-G-07"
+  },
+  {
+    "id": "LES-08",
+    "event_type": "overpressure",
+    "title": "Transition Zone Pore Pressure Ramp",
+    "symptoms": "Connection gas peaks, d-exponent decrease, rising shale density gradient.",
+    "typical_causes": "Trapped pore fluids under impermeable shale seals.",
+    "recommended_actions": "Perform flow checks every 15m. Step up mud weight in 0.02 SG increments ahead of Kopili top.",
+    "historical_stats": "Zero kicks experienced when mud weight was adjusted based on real-time d-exponent trend.",
+    "case_well_ids": "DEMO-B-02,DEMO-I-09"
+  }
+]
